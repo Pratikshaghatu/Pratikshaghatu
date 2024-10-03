@@ -1,0 +1,57 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* User Card Styling */
+#userCard .card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 400px;
+    margin: auto;
+}
